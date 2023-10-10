@@ -1,0 +1,178 @@
+/* This is a comment in CSS */
+
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles for the entire document */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    margin:0px;
+    font:normal 12px/18px 'Helvetica', Arial, sans-serif;
+    min-height: 400vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+#container1{
+   
+    position:relative;
+    width: 100vw;
+    height: 200vh;
+    background-image: url('https://i.pinimg.com/originals/58/db/b9/58dbb9f2a3e6739fd7e71fd9b961e4c0.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    width: auto;
+    min-width: 100vh;
+}
+
+
+#container1>img {
+    position: absolute;
+    /* transition: opacity 0.5s ease-in-out; */
+    width:auto;
+    min-height: 100vh;
+    overflow-x: hidden;
+    top:0;
+}
+
+#left-hand{
+    top:0;
+    position: fixed;
+}
+
+#right-hand{
+    top:0;
+    position:fixed; 
+    right:0px;
+}
+
+
+#contentbox1{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+    margin-top: 40%;
+    min-width: 40%;
+}
+
+
+#contentbox2{
+    position: absolute;
+    top: 28%;
+    left: 30%;
+    text-align: center;
+    align-items: center;
+    min-width: 40%;
+}
+
+#contentbox3{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    text-align: center;
+    align-items: center;
+    min-width: 40%;
+    z-index: 1;
+}
+
+#colorStop{
+    
+}
+#contentbox4{
+    position: absolute;
+    top:60%;
+    left: 30%;
+    text-align: center;
+    align-items: center;
+    min-width: 40%;
+}
+
+#line1{
+    min-width: 40%;
+    padding: 20px;
+    border-radius: 5%;
+    border: 2px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+#line2{
+    min-width: 40%;
+    padding: 20px;
+    border-radius: 5%;
+    border: 2px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+#line3{
+    color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5%;
+    border: 2px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    margin-top: 50%;
+}
+
+
+#line4{
+    color:#333;
+    padding: 20px;
+    border-radius: 5%;
+    border: 2px solid #651414;
+    box-shadow: 0 0 10px rgba(67, 2, 2, 0.5); 
+}
+
+
+
+
+#container2{
+    background-color: #333;
+    position:relative;
+    width: 100vw;
+    min-height: 200vh;
+    align-items: center;
+}
+
+#svgcat{
+    left:30%;
+    margin-top: -50%;
+}
+
+#Layer_1{
+    margin-top: 30%;
+    margin-left: 35%;
+    max-width: 30%;
+    height: auto;
+}
+
+
+
+/* #witchbox{
+    position:relative;
+    margin-left: 30%;
+}
+
+#Witches{
+    max-width: 30%;
+    height: auto;
+    border-radius: 40%;
+} */
+
+#container3{
+    position:relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://s3.amazonaws.com/sierraimages/Images/Product/Large/7551.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    width: auto;
+    min-width: 100vh;
+}
+#cloud{
+    width: 100vw;
+    margin-top: -15%;
+}
