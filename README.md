@@ -1,5 +1,5 @@
 Animated Website README
-This project is an animated website with scroll-triggered animations and dynamic effects. It includes animated SVG graphics, theme changes, and interactive elements. This README provides an overview of the project, its features, and how to get it up and running.
+This project is an animated website with scroll-triggered animations and dynamic effects. It includes animated SVG graphics, theme changes, and interactive elements. 
 
 **Features**
 Scroll-Based Animations: The website features scroll-triggered animations for various elements, creating a dynamic user experience.
