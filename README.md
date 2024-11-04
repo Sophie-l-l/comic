@@ -1,3 +1,4 @@
+![comic](https://ds7363.github.io/interactivecomic/)
 Animated Website README
 This project is an animated website with scroll-triggered animations and dynamic effects. It includes animated SVG graphics, theme changes, and interactive elements. 
 
